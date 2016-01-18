@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <title>php_prueba</title> 
+    <link rel="stylesheet" type="text/css" href="resources/css/cssPortada.css"> 
+
+</head> 
+<body> 
+<header> 
+<h1 class="headtype">Yoel Cano</h1> 
+<img class="logoimage" src ="http://sia1.subirimagenes.net/img/2014/01/24/14012407263823065.png" width="120" height="100">
+<img class="logoimage" src ="http://www.tutorialesubuntu.com/xamppico.png" width="130" height="100"> 
+</header> 
+<div id="formulario_registro"> 
+    <form action="check_login.php" method="post" class="signin"> 
+        <fieldset class="textbox"> 
+            <label class="username"> 
+                <span>Email</span> 
+                <input id="username" name="email" value="" type="text" autocomplete="on" placeholder="Usuario" required>
+            </label> 
+            <label class="password"> 
+                <span>Contrase&ntilde;a</span> 
+                <input id="password" name="password" value="" type="password" placeholder="Contrase&ntilde;a" required>
+            </label> 
+                <input type="submit" id="go" value="Enviar"> 
+                <input  type="button" id="cancel" value="Cancel" onClick="window.location.href='index.php'">
+                 
+        </fieldset> 
+    </form> 
+</div> 
+</body> 
+
+</html>
